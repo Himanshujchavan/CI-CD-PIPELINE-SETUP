@@ -1,3 +1,18 @@
+#  CI/CD PIPELINE SETUP
+COMPANY : CODETECH IT SOLUTION
+
+NAME :Himanshu Jagannath Chavan
+
+Intern ID: CT04DK145
+
+Domain : DevOps
+
+Duration : 4 weeks
+
+Mentor : NEELA SANTOSH
+
+---
+
 # 🎵 Spotify Web Clone
 
 A simple Spotify-inspired music player built using **HTML, CSS, and JavaScript**. 
@@ -91,12 +106,12 @@ jobs:
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots :
+## Dark Mode:
+![Image](https://github.com/user-attachments/assets/f650dcb0-961b-4fa2-b7e3-0230b3835e5a)
 
-You can include screenshots of your UI here:
-- Music player interface
-- Album art and controls
-- Example song list
+## vgitLight Mode:
+![Image](https://github.com/user-attachments/assets/5c39f9e9-b5b5-4fe5-8dc6-0af3c0e7a4f3)
 
 ---
 
