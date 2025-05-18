@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .player {
+    background: #1db954;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #1db95488;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .album-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .controls button,
+  #toggle-theme {
+    background: black;
+    color: #1db954;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover,
+  #toggle-theme:hover {
+    background: #222;
+  }
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  #progress {
+    flex-grow: 1;
+  }
+  
+  .volume-container {
+    margin: 10px 0;
+  }
+  
+  .playlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .playlist li {
+    padding: 5px 10px;
+    background: #00000040;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .playlist li:hover {
+    background: #00000080;
+  }
+  
+  body.light-mode {
+    background: #f0f0f0;
+    color: #121212;
+  }
+  
+  body.light-mode .player {
+    background: #ffffff;
+    color: #121212;
+    box-shadow: 0 0 15px #999;
+  }
+  
+  body.light-mode .controls button,
+  body.light-mode #toggle-theme {
+    background: #f0f0f0;
+    color: #1db954;
+  }
+  
+  

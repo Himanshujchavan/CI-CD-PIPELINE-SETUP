@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 My Spotify</h1>
+
+    <div class="player">
+      <img src="https://i.imgur.com/ZMfjGEZ.png" alt="Album Art" class="album-art" />
+      <h2 id="song-title">Song Title</h2>
+
+      <audio id="audio" src="songs/song1.mp3"></audio>
+
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress" value="0" />
+        <span id="duration">0:00</span>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="pause">⏸️</button>
+        <button id="next">⏭️</button>
+      </div>
+
+      <!-- Volume -->
+      <div class="volume-container">
+        <label for="volume">🔊</label>
+        <input type="range" id="volume" min="0" max="1" step="0.1" value="1" />
+      </div>
+
+      <!-- Playlist -->
+      <ul class="playlist" id="playlist">
+        <li data-src="songs/song1.mp3">🎵 Indian Classical</li>
+        <li data-src="songs/song2.mp3">🎵 Lal Pari</li>
+        <li data-src="songs/song3.mp3">🎵 Aja ki Raat</li>
+      </ul>
+
+      <!-- Dark Mode Toggle -->
+      <button id="toggle-theme">🌓 Toggle Theme</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
