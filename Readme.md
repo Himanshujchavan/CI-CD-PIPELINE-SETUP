@@ -1,7 +1,7 @@
 #  CI/CD PIPELINE SETUP
 COMPANY : CODETECH IT SOLUTION
 
-NAME :Himanshu Jagannath Chavan
+NAME :Himanshu Jagannath chavan
 
 Intern ID: CT04DK145
 
